@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #ffebf2;
+            color: #d63384;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff4d79;
+            padding: 20px;
+            color: white;
+        }
+        .intro, .message {
+            margin: 20px;
+            font-size: 1.2em;
+        }
+        .gallery {
+            margin: 20px;
+        }
+        .gallery .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #ff4d79;
+            padding: 10px;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Happy Valentine's Day, My Love!</h1>
+    </header>
+    <section class="intro">
+        <p>Every moment with you is a beautiful chapter in my life. This page is dedicated to our love and the incredible journey we share.</p>
+    </section>
+    <section class="gallery">
+        <h2>Our Beautiful Moments</h2>
+        <div class="image-container">
+            <img src="file-6odSTWZbE52nHi3C1JmPic" alt="Image 1">
+            <img src="file-Pu9Cnq1FchGmHYfSSkDAn8" alt="Image 2">
+            <img src="file-Fi3UiWTTwzJzBS1f1psj26" alt="Image 3">
+            <img src="file-FHvfECAzvR2P3Dr83dxVeN" alt="Image 4">
+            <img src="file-WLENXQ4XR6adUrgncAvzCg" alt="Image 5">
+        </div>
+    </section>
+    <section class="message">
+        <h2>A Special Message for You</h2>
+        <p>You are the light of my life, my source of happiness, and the reason my heart beats with joy. Every day with you is a blessing, and I cherish every single moment we share. Thank you for being my person. I love you endlessly! ❤️</p>
+    </section>
+    <footer>
+        <p>Forever yours, Waiz</p>
+    </footer>
+</body>
+</html>
